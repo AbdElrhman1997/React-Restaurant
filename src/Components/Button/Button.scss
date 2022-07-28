@@ -1,0 +1,17 @@
+$main-color:rgb(168, 45, 73);
+.button {
+    width: fit-content;
+    height: fit-content;
+    padding: .7rem .5rem;
+    text-align: center;
+    background-color: $main-color;
+    color: white;
+    transition: .2s ease-in-out;
+    font-size: 1rem;
+}
+.button:hover {
+    background-color: transparent;
+    color: $main-color;
+    outline: 2px solid $main-color;
+    cursor: pointer;
+}

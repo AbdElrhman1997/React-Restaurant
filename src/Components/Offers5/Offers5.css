@@ -1,0 +1,13 @@
+.offers5 {
+  margin: 6rem 0;
+  background: url("../../Images/download.jpg") fixed center;
+  background-size: 100% 110%;
+  height: 20%;
+}
+.offers5 .overlay {
+  padding: 1rem;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  background-color: rgba(0, 0, 0, 0.4);
+}/*# sourceMappingURL=Offers5.css.map */

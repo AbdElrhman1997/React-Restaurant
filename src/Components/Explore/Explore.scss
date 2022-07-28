@@ -1,0 +1,18 @@
+.explore {
+    div {
+        .card {
+            border-radius: 10px;
+            height: fit-content;
+            font-size: 1rem;
+            width: fit-content;
+            @media (max-width:640px) {
+                width: 60%;
+                margin:5rem auto;
+            }
+            img {
+                border-radius: 10px 10px 0 0;
+            }
+        }
+
+    }
+}

@@ -1,0 +1,13 @@
+.offers3 {
+    width: 100%;
+    background: url('../../Images/Offers3Bg.jpg') no-repeat right;
+    background-size:100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 6rem 1rem;
+    @media (min-width:768px) {
+        height: 87.5vh;
+    }
+}

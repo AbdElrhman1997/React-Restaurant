@@ -1,0 +1,25 @@
+.contact {
+    text-align: center;
+    margin: 0 auto;
+    input {
+        border: 2px solid rgb(170, 170, 170);
+        outline: none;
+        margin: 1rem;
+        padding: .7rem;
+    }
+    .submit {
+        width: fit-content;
+        height: fit-content;
+        padding: 1rem 2rem;
+        color: white;
+        font-size: .8rem;
+        font-weight: bold;
+        margin: 1rem;
+        transition: .3s ease-in-out;
+    }
+    .submit:hover {
+        background-color: transparent;
+        color: rgb(168, 45, 73);
+        outline: 2px solid rgb(168, 45, 73);
+    }
+}

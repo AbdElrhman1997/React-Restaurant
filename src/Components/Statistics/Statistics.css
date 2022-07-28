@@ -1,0 +1,17 @@
+.statistics {
+  background-color: #a82d49;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  color: white;
+  font-weight: bold;
+  padding: 1.4rem 0;
+  text-align: center;
+}
+.statistics p:nth-of-type(1) {
+  font-size: 2rem;
+}
+.statistics p:nth-of-type(2) {
+  margin-top: 0.3rem;
+  font-size: 0.8rem;
+}/*# sourceMappingURL=Statistics.css.map */
