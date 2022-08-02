@@ -6,7 +6,7 @@ const Offers5 = () => {
     return (
         <div className='offers5'>
                 <div className='overlay'>
-                <div className="container lg:flex md:flex sm:flex justify-around items-center">
+                <div className="container lg:flex md:flex sm:flex justify-around items-center" data-aos='fade-right' data-aos-delay='300'>
                     <p className='text-3xl text-white font-bold my-6'>Baked fresh daily by bakers with passion.</p>
                     <Button content='Learn More'/>
                 </div>

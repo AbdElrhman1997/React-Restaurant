@@ -8,7 +8,7 @@ const NavBar = () => {
     const [navMobile,setNavMobile]=useState(false);
 
     return (
-        <nav className='nav shadow-lg'>
+        <nav className='nav shadow-lg' data-aos='fade-bottom' data-aos-delay='200'>
             <div className=' container mx-auto'>
                 <div className='navLg grid grid-cols-12'>
                     <div className='lg:col-span-6 md:col-span-4 col-span-4'>

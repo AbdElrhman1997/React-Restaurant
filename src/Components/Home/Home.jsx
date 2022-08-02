@@ -7,7 +7,7 @@ const Home = () => {
     return (
         <section id='home' className='home'>
             <div className='container mx-auto'>
-                <div className='lg:w-2/5 md:w-3/5 w-full lg:text-left md:text-left text-center'>
+                <div className='lg:w-2/5 md:w-3/5 w-full lg:text-left md:text-left text-center' data-aos='fade-right' data-aos-delay='400'>
                     <p className='text-5xl font-bold'>Good food choices are good investments.</p>
                     <p className='text-2xltext-gray-500 my-8'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam et purus a odio finibus bibendum amet leo.</p>
                     <div className='flex lg:justify-start md:justify-start justify-center'>
