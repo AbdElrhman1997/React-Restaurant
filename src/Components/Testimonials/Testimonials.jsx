@@ -29,7 +29,7 @@ const Testimonials = () => {
                         <p className='mx-auto text-mainColor-100 my-6 font-bold'>Simab Dave-Web Designer</p>
                     </div>
                 </div>
-                <div className='flex justify-center gap-6 my-6 icons'>
+                <div className='flex justify-center gap-10 my-6 icons'>
                     <FaCircle className={`icon ${displayCard==='1'?'text-slate-100':''}`} onClick={()=>{setDisplayCard('1')}}/>
                     <FaCircle className={`icon ${displayCard==='2'?'text-slate-100':''}`} onClick={()=>{setDisplayCard('2')}}/>
                     <FaCircle className={`icon ${displayCard==='3'?'text-slate-100':''}`} onClick={()=>{setDisplayCard('3')}}/>

@@ -7,8 +7,8 @@ import './Explore.scss';
 
 const Explore = () => {
     return (
-        <section className='explore' id='explore' data-aos='fade-left' data-aos-delay='100'>
-            <div className='container mx-auto text-center'>
+        <section className='explore' id='explore' >
+            <div className='container mx-auto text-center px-4'>
                 <p className='text-3xl font-semibold text-headTxt-100 mt-10'>Explore Our Foods</p>
                 <p className=' text-bodyTxt-100 my-6 w-2/3 mx-auto'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam et purus a odio finibus bibendum in sit amet leo. Mauris feugiat erat tellus.Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
                 <div className="lg:grid md:grid sm:grid grid-cols-12 lg:gap-16 sm:gap-12 mt-14">

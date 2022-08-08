@@ -4,7 +4,7 @@ import './FAQ.scss';
 const FAQ = () => {
     return (
         <section className='faq' id='FAQ'>
-            <div className='container mx-auto'>
+            <div className='container mx-auto px-2'>
                 <p className='text-3xl font-semibold text-headTxt-100 my-10 text-center' data-aos='fade-right' data-aos-delay='200'>Frequently Asked Questions</p>
                 <div className='grid grid-cols-12'>
                     <div className='lg:col-span-6 md:col-span-6 col-span-12 ' data-aos='fade-right' data-aos-delay='300'>

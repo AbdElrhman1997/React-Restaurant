@@ -20,4 +20,6 @@ code {
 
 body {
   background-color: #f7f7f7;
+  /* max-width: 100vw;
+  overflow-x: hidden; */
 }
